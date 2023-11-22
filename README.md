@@ -6,7 +6,7 @@ Based on  [charmd](https://deno.land/x/charmd@v0.0.2)
 ## Install
 
 ```zsh
-deno install https://deno.land/x/charmdstream/mod.ts
+deno install https://deno.land/x/charmstream/mod.ts
 ```
 
 If you have not `Deno` ,you can install it as follow
@@ -20,11 +20,12 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 
 
 ```zsh
-deno run https://deno.land/x/charmdstream/stream-mock.ts | charmdstream
+deno run https://deno.land/x/charmstream/stream-mock.ts | charmstream
 ```
+The `stream-mock.ts` is a character stream mock 
 
 
 For chatgpt
 ```
-gpt I want an example with typescript | charmdstream
+gpt I want an example with typescript | charmstream
 ```
