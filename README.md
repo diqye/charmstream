@@ -1,5 +1,7 @@
 # charmstream
-A command line tool write by  deno for render pretty markdown on terminal by stream
+A command line tool write by  deno for render pretty markdown on terminal by stream.
+
+Based on  [charmd](https://deno.land/x/charmd@v0.0.2)
 
 ## Install
 
