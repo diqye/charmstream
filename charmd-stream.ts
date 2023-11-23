@@ -5,6 +5,7 @@ import { renderMarkdown } from 'https://deno.land/x/charmd/mod.ts';
 export default async function(){
     let textEncoder = new TextEncoder()
     let textDecoder = new TextDecoder()
+    console.log("\x1b[2J")
     let mdstream = (mds:string[]) =>new TransformStream<string,string>({
         transform(chunk,controller){
             mds.push(chunk)
