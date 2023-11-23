@@ -11,7 +11,7 @@ export default async function(){
             mds.push(chunk)
             let markdownText = renderMarkdown(mds.join(""))
             controller.enqueue("\x1b[H\x1b[J")
-            controller.enqueue(renderMarkdown(markdownText))
+            controller.enqueue(markdownText)
         }
     })
     await Deno.stdin.readable.pipeThrough(new TextDecoderStream())
